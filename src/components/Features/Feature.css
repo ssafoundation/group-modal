@@ -1,0 +1,112 @@
+/* ================ */
+.feature-single-item-left {
+    text-align: right;
+    background: linear-gradient(90deg, #17a2b8ba, #ffc107ad);
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.feature-single-item-right {
+    background: linear-gradient(90deg, #17a2b8ba, #ffc107ad);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.call-action-main-wrap {
+    background-position: center;
+    background-size: cover;
+}
+
+.call-action-main-wrap {
+    background-position: center;
+    background-size: cover;
+    padding: 50px 44px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.call-action-main-wrap:after {
+    width: 100%;
+    height: 100%;
+    background: rgb(0 123 255 / 25%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.feature-main-wrap {
+    margin-top: 30px;
+}
+
+.call-to-action-content {
+    position: relative;
+    z-index: 1;
+}
+
+button.btn.feature-btn {
+    background: #f0f8ff;
+}
+
+button.btn.feature-btn:hover {
+    background: #ffc107;
+    color: #fff;
+
+}
+
+.video-modal-wrap {
+    text-align: center;
+    padding: 5%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.video-modal-wrap:after {
+    content: '';
+    background: rgb(0 123 255 / 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-modal-wrap button {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.video-modal-wrap button i {
+    color: red;
+    font-size: 24px;
+}
+
+.modal-video-close-btn:before,
+.modal-video-close-btn:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 55% !important;
+    top: 55% !important;
+    left: 22.5% !important;
+    margin-top: -1px;
+    background: #000000 !important;
+    border-radius: 5px;
+    margin-top: -6px;
+}

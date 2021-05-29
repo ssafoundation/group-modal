@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
+import "./App.css";
+import CallToAction from "./components/CallToAction/CallToAction";
+import "./components/Features/Feature.css";
+import Feature from "./components/Features/Feature.js";
+import Modal from "./components/Modal/Modal";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <Feature />
+      <CallToAction />
+      <Modal />
     </div>
   );
 }
