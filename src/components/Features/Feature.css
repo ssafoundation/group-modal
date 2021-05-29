@@ -64,6 +64,7 @@ button.btn.feature-btn:hover {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    margin-bottom: 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
