@@ -6,22 +6,23 @@ const Feature = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="feature-single-item-left">
-              <h3>Offer 50% left</h3>
+              
+              <h3>Special Offer</h3>
+              <h3>50% Off</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae iste distinctio consectetur! Rerum, incidunt
-                repellat.
+                These templates will work well with technology, fashion,
+                apparel, jewelry, home goods, gadgets,
               </p>
               <button className="btn feature-btn">Get Now</button>
             </div>
           </div>
           <div className="col-md-6">
             <div className="feature-single-item-right">
-              <h3>Offer 50% left</h3>
+              <h3>Special Offer</h3>
+              <h2>30% Off</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae iste distinctio consectetur! Rerum, incidunt
-                repellat.
+                These templates will work well with technology, fashion,
+                apparel, jewelry, home goods, gadgets,
               </p>
               <button className="btn feature-btn">Get Now</button>
             </div>

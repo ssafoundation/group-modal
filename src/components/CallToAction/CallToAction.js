@@ -10,11 +10,8 @@ const CallToAction = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="call-to-action-content">
-            <h4>Lorem ipsum dolor sit amet.</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              saepe delectus numquam sit laudantium nisi?
-            </p>
+            <h4>Send Newsletter...</h4>
+            <p>What do I want people who visit my website to do?”</p>
             <button className="btn feature-btn">Action</button>
           </div>
         </div>
